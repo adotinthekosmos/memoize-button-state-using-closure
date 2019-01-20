@@ -16,6 +16,7 @@ const logDevice = (deviceNames, deviceValues) => {
   deviceValues.forEach((value, index) => {
     console.log(deviceNames[index], value);
   });
+  console.log("<--------------->");
 };
 
 const switchDevice = () => {
